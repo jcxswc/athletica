@@ -13,6 +13,15 @@
 // to also remove its path from "config.paths.watched".
 import "phoenix_html"
 
+import React from "react"
+import ReactDOM from "react-dom"
+import Dashboard from "./scenes/Dashboard"
+
+ReactDOM.render(
+  <Dashboard />,
+  document.getElementById("root")
+)
+
 // Import local files
 //
 // Local files can be imported directly using relative
